@@ -81,7 +81,7 @@ var setStateResults = function(state){
  
     } else if (shiloh.electionResults[state] < sawyer.electionResults[state]) {
  
-        theStates[state].winner = sawyer;
+        theStates[state].winner = shiloh;
  
     }
   
