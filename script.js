@@ -79,7 +79,7 @@ var setStateResults = function(state){
         
         theStates[state].winner = sawyer; //set winner to the candidate object, not the candidate's name this time
  
-    } else if (shiloh.electionResults[state] < sawyer.electionResults[state]) {
+    } else if (shiloh.electionResults[state] > sawyer.electionResults[state]) {
  
         theStates[state].winner = shiloh;
  
